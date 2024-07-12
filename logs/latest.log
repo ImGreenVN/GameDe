@@ -1,0 +1,593 @@
+2024-07-12 23:17:13,986 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+2024-07-12 23:17:13,994 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+2024-07-12 23:17:14,149 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/GameDe/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2382!/ Service=ModLauncher Env=SERVER
+2024-07-12 23:17:14,211 [33mWARN [m [m[main][m [mn.m.f.l.FMLConfig.loadFrom(53)[m: Configuration file /workspaces/GameDe/config/fml.toml is not correct. Correcting
+2024-07-12 23:17:14,768 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(54)[m: No dependencies to load found. Skipping!
+2024-07-12 23:17:17,210 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2024-07-12 23:17:24,314 [32mINFO [m [m[main][m [mn.m.u.d.DataFixers.m_14529_(272)[m: Building unoptimized datafixer
+2024-07-12 23:17:27,375 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(428)[m: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+2024-07-12 23:17:27,384 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(49)[m: MinecraftForge v43.4.2 Initialized
+2024-07-12 23:17:27,754 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(39)[m: EventDispatcherRegistry initialized
+2024-07-12 23:17:28,287 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.setConfig(87)[m: Configuration file /workspaces/GameDe/config/forge-common.toml is not correct. Correcting
+2024-07-12 23:17:28,289 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+2024-07-12 23:17:28,289 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
+2024-07-12 23:17:28,290 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
+2024-07-12 23:17:28,291 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
+2024-07-12 23:17:31,107 [1;31mERROR[m [m[main][m [mn.m.s.d.Settings.m_139839_(54)[m: Failed to load properties from file: server.properties
+2024-07-12 23:17:31,149 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(74)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2024-07-12 23:17:31,241 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/GameDe/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23133!/assets/.mcassetsroot' uses unexpected schema
+2024-07-12 23:17:31,242 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/GameDe/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23133!/data/.mcassetsroot' uses unexpected schema
+2024-07-12 23:17:35,236 [32mINFO [m [m[main][m [mn.m.w.i.c.RecipeManager.m_5787_(97)[m: Loaded 7 recipes
+2024-07-12 23:17:36,068 [32mINFO [m [m[main][m [mn.m.a.AdvancementList.m_139333_(94)[m: Loaded 1179 advancements
+2024-07-12 23:17:37,263 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(127)[m: Starting minecraft server version 1.19.2
+2024-07-12 23:17:37,266 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(132)[m: Loading properties
+2024-07-12 23:17:37,266 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(148)[m: Default game type: SURVIVAL
+2024-07-12 23:17:37,267 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129793_(1294)[m: Generating keypair
+2024-07-12 23:17:37,439 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(159)[m: Starting Minecraft server on *:25565
+2024-07-12 23:17:37,491 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerConnectionListener.m_9711_(83)[m: Using default channel type
+2024-07-12 23:17:37,849 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: This server is running Mohist version 1.19.2-127 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT, Forge version 43.4.2)
+2024-07-12 23:17:37,997 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
+2024-07-12 23:17:37,999 [32mINFO [m [m[Server thread][m [m.playerSample(271)[m: Server Ping Player Sample Count: 12
+2024-07-12 23:17:38,003 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
+2024-07-12 23:17:38,031 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.setConfig(87)[m: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+2024-07-12 23:17:38,033 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+2024-07-12 23:17:38,034 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+2024-07-12 23:17:38,035 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+2024-07-12 23:17:38,036 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+2024-07-12 23:17:38,038 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+2024-07-12 23:17:38,040 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+2024-07-12 23:17:38,041 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+2024-07-12 23:17:38,043 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(90)[m: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+2024-07-12 23:17:38,096 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(197)[m: Preparing level "world"
+2024-07-12 23:18:00,410 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:overworld
+2024-07-12 23:18:02,825 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:02,931 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:02,944 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:02,948 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:02,951 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:02,954 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:03,528 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:03,985 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:04,444 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:05,093 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:05,427 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:05,914 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:06,455 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:06,923 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:07,436 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:07,920 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:08,419 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:08,941 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:09,420 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:09,969 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:10,440 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:10,916 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:11,449 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:11,928 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:12,431 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:12,915 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:13,566 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:14,024 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:14,437 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:14,961 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:15,416 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:15,948 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:16,442 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:16,917 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:17,435 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:17,928 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:18,440 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:18,921 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:19,426 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:19,949 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:20,422 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:20,957 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:21,492 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:21,972 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:22,413 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:22,913 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:23,416 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:23,944 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:24,414 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:24,915 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:25,437 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:25,939 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:26,417 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:26,940 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:27,425 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:27,914 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:28,422 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:28,946 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:29,419 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:29,914 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:30,523 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:30,920 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:31,429 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:31,933 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:32,486 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:32,935 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:33,421 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:33,947 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:34,415 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:34,941 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:35,414 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:35,999 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:36,500 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:36,935 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:37,449 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:37,917 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:38,453 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:38,913 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:39,424 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:39,943 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:40,458 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:40,925 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:41,423 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:41,976 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:42,480 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:42,930 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:43,428 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:43,914 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:44,436 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:44,916 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:45,431 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:45,929 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:46,429 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:47,018 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:47,757 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:47,917 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:48,440 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:48,997 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:49,417 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:49,946 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:50,447 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:50,930 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:51,414 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:51,930 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:52,443 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:52,927 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:53,441 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:53,917 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:54,475 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:54,939 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:55,485 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:55,960 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:56,433 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:56,948 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:57,423 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:57,934 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:58,439 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:59,285 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:18:59,442 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:00,724 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2024-07-12 23:19:00,785 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2024-07-12 23:19:01,485 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 21%
+2024-07-12 23:19:01,486 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 21%
+2024-07-12 23:19:03,321 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 33%
+2024-07-12 23:19:03,329 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 33%
+2024-07-12 23:19:03,330 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 33%
+2024-07-12 23:19:03,500 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 43%
+2024-07-12 23:19:03,943 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 45%
+2024-07-12 23:19:04,531 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 46%
+2024-07-12 23:19:05,278 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 52%
+2024-07-12 23:19:05,497 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 63%
+2024-07-12 23:19:06,478 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 65%
+2024-07-12 23:19:06,481 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 65%
+2024-07-12 23:19:07,275 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 83%
+2024-07-12 23:19:10,721 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 70308 ms
+2024-07-12 23:19:10,771 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:the_end
+2024-07-12 23:19:11,238 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:11,274 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:11,773 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:12,804 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:12,810 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:13,276 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:13,774 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:14,279 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:14,773 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:15,280 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:15,773 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:16,273 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:16,773 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:17,276 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:17,773 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:18,102 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 7330 ms
+2024-07-12 23:19:18,106 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:the_nether
+2024-07-12 23:19:19,242 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:19,244 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:19,245 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:19,628 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:20,146 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:20,608 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:21,120 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:21,625 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:22,112 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:22,636 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:23,127 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:23,609 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:24,147 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:24,619 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:25,138 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:25,610 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:26,122 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:26,758 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:27,119 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:27,617 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:28,109 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:28,613 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:29,118 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:29,616 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:30,116 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:30,614 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:31,121 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:31,615 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:32,112 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:32,618 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:33,116 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:33,611 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:34,114 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:34,609 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:35,122 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:35,627 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:36,118 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:36,609 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:37,118 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:37,615 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:38,116 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:38,623 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2024-07-12 23:19:39,159 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 12%
+2024-07-12 23:19:39,663 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 21%
+2024-07-12 23:19:40,112 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 31%
+2024-07-12 23:19:40,629 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 41%
+2024-07-12 23:19:41,166 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 42%
+2024-07-12 23:19:41,636 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 54%
+2024-07-12 23:19:42,496 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 67%
+2024-07-12 23:19:42,625 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 70%
+2024-07-12 23:19:43,254 [32mINFO [m [m[Worker-Main-7][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 89%
+2024-07-12 23:19:43,570 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 25463 ms
+2024-07-12 23:19:43,606 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(201)[m: Done (125.583s)! For help, type "help"
+2024-07-12 23:19:43,637 [32mINFO [m [m[Server thread][m [mn.m.s.p.PermissionAPI.initializePermissionAPI(130)[m: Successfully initialized permission handler forge:default_handler
+2024-07-12 23:19:51,808 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1265)[m: Stopping the server
+2024-07-12 23:19:51,838 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(684)[m: Stopping server
+2024-07-12 23:19:51,840 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(696)[m: Saving players
+2024-07-12 23:19:51,940 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(702)[m: Saving worlds
+2024-07-12 23:19:57,003 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(622)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+2024-07-12 23:20:58,013 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,014 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: The server has stopped responding! This is (probably) not a Spigot bug.
+2024-07-12 23:20:58,015 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: If you see a plugin in the Server thread dump below, then please report it to that author
+2024-07-12 23:20:58,026 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
+2024-07-12 23:20:58,026 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: If you see a world save or edit, then it means you did far more than your server can handle at once
+2024-07-12 23:20:58,027 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
+2024-07-12 23:20:58,027 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: If you are unsure or still think this is a Spigot bug, please report to https://www.spigotmc.org/
+2024-07-12 23:20:58,027 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Be sure to include ALL relevant console errors and Minecraft crash reports
+2024-07-12 23:20:58,028 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Spigot version: 1.19.2-127 (MC: 1.19.2)
+2024-07-12 23:20:58,028 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,028 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Server thread dump (Look for plugins here before reporting to Spigot!):
+2024-07-12 23:20:58,029 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,030 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Server thread
+2024-07-12 23:20:58,040 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 31 | Suspended: false | Native: false | State: WAITING
+2024-07-12 23:20:58,040 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,041 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+2024-07-12 23:20:58,041 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+2024-07-12 23:20:58,042 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+2024-07-12 23:20:58,043 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+2024-07-12 23:20:58,044 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+2024-07-12 23:20:58,046 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+2024-07-12 23:20:58,047 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+2024-07-12 23:20:58,047 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.ChunkStorage.m_63514_(ChunkStorage.java:161)
+2024-07-12 23:20:58,048 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_140318_(ChunkMap.java:456)
+2024-07-12 23:20:58,048 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache.m_8419_(ServerChunkCache.java:313)
+2024-07-12 23:20:58,049 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerLevel.m_8643_(ServerLevel.java:813)
+2024-07-12 23:20:58,049 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129885_(MinecraftServer.java:625)
+2024-07-12 23:20:58,050 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7041_(MinecraftServer.java:725)
+2024-07-12 23:20:58,050 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.dedicated.DedicatedServer.m_7041_(DedicatedServer.java:595)
+2024-07-12 23:20:58,050 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:922)
+2024-07-12 23:20:58,051 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281)
+2024-07-12 23:20:58,051 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer$$Lambda/0x000070ef28bcc240.run(Unknown Source)
+2024-07-12 23:20:58,052 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,052 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,052 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,053 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Entire Thread Dump:
+2024-07-12 23:20:58,239 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,240 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Reference Handler
+2024-07-12 23:20:58,240 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 9 | Suspended: false | Native: false | State: RUNNABLE
+2024-07-12 23:20:58,241 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,243 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+2024-07-12 23:20:58,243 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+2024-07-12 23:20:58,244 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+2024-07-12 23:20:58,248 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,248 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Finalizer
+2024-07-12 23:20:58,249 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 10 | Suspended: false | Native: false | State: WAITING
+2024-07-12 23:20:58,249 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,249 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Object.wait0(Native Method)
+2024-07-12 23:20:58,249 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Object.wait(Object.java:366)
+2024-07-12 23:20:58,250 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Object.wait(Object.java:339)
+2024-07-12 23:20:58,250 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+2024-07-12 23:20:58,250 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+2024-07-12 23:20:58,250 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+2024-07-12 23:20:58,250 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+2024-07-12 23:20:58,251 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,251 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Signal Dispatcher
+2024-07-12 23:20:58,251 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 11 | Suspended: false | Native: false | State: RUNNABLE
+2024-07-12 23:20:58,251 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,252 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,252 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Notification Thread
+2024-07-12 23:20:58,252 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 16 | Suspended: false | Native: false | State: RUNNABLE
+2024-07-12 23:20:58,252 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,252 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,253 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Common-Cleaner
+2024-07-12 23:20:58,253 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 17 | Suspended: false | Native: false | State: TIMED_WAITING
+2024-07-12 23:20:58,253 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,253 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+2024-07-12 23:20:58,253 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+2024-07-12 23:20:58,253 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+2024-07-12 23:20:58,254 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+2024-07-12 23:20:58,254 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+2024-07-12 23:20:58,255 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+2024-07-12 23:20:58,256 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+2024-07-12 23:20:58,256 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,258 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,258 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+2024-07-12 23:20:58,259 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,259 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Thread-0
+2024-07-12 23:20:58,259 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 23 | Suspended: false | Native: false | State: TIMED_WAITING
+2024-07-12 23:20:58,259 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,259 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+2024-07-12 23:20:58,260 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+2024-07-12 23:20:58,261 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.6.4/com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+2024-07-12 23:20:58,261 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,261 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: FileSystemWatchService
+2024-07-12 23:20:58,261 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 24 | Suspended: false | Native: true | State: RUNNABLE
+2024-07-12 23:20:58,261 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,262 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.fs.LinuxWatchService.poll(Native Method)
+2024-07-12 23:20:58,262 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:307)
+2024-07-12 23:20:58,262 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,263 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,263 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,263 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Timer hack thread
+2024-07-12 23:20:58,263 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 27 | Suspended: false | Native: false | State: TIMED_WAITING
+2024-07-12 23:20:58,263 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,264 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.sleep0(Native Method)
+2024-07-12 23:20:58,264 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.sleep(Thread.java:509)
+2024-07-12 23:20:58,264 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.Util$9.run(Util.java:673)
+2024-07-12 23:20:58,264 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,265 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Worker-Main-1
+2024-07-12 23:20:58,265 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 30 | Suspended: false | Native: false | State: TIMED_WAITING
+2024-07-12 23:20:58,265 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,265 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+2024-07-12 23:20:58,265 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+2024-07-12 23:20:58,266 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+2024-07-12 23:20:58,266 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+2024-07-12 23:20:58,266 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024-07-12 23:20:58,266 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,266 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Server thread
+2024-07-12 23:20:58,272 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 31 | Suspended: false | Native: false | State: WAITING
+2024-07-12 23:20:58,273 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,273 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+2024-07-12 23:20:58,274 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+2024-07-12 23:20:58,274 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+2024-07-12 23:20:58,274 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+2024-07-12 23:20:58,274 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+2024-07-12 23:20:58,275 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+2024-07-12 23:20:58,275 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+2024-07-12 23:20:58,276 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.ChunkStorage.m_63514_(ChunkStorage.java:161)
+2024-07-12 23:20:58,276 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_140318_(ChunkMap.java:456)
+2024-07-12 23:20:58,276 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache.m_8419_(ServerChunkCache.java:313)
+2024-07-12 23:20:58,277 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerLevel.m_8643_(ServerLevel.java:813)
+2024-07-12 23:20:58,277 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129885_(MinecraftServer.java:625)
+2024-07-12 23:20:58,277 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7041_(MinecraftServer.java:725)
+2024-07-12 23:20:58,278 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.dedicated.DedicatedServer.m_7041_(DedicatedServer.java:595)
+2024-07-12 23:20:58,279 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:922)
+2024-07-12 23:20:58,279 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281)
+2024-07-12 23:20:58,279 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer$$Lambda/0x000070ef28bcc240.run(Unknown Source)
+2024-07-12 23:20:58,280 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,280 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,280 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,281 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: DestroyJavaVM
+2024-07-12 23:20:58,281 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 34 | Suspended: false | Native: false | State: RUNNABLE
+2024-07-12 23:20:58,281 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,281 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,281 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Server console handler
+2024-07-12 23:20:58,282 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 33 | Suspended: false | Native: false | State: RUNNABLE
+2024-07-12 23:20:58,282 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,282 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.io.FileInputStream.read0(Native Method)
+2024-07-12 23:20:58,283 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.io.FileInputStream.read(FileInputStream.java:231)
+2024-07-12 23:20:58,283 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
+2024-07-12 23:20:58,283 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+2024-07-12 23:20:58,284 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
+2024-07-12 23:20:58,284 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+2024-07-12 23:20:58,285 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
+2024-07-12 23:20:58,285 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+2024-07-12 23:20:58,285 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+2024-07-12 23:20:58,285 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
+2024-07-12 23:20:58,285 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
+2024-07-12 23:20:58,286 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
+2024-07-12 23:20:58,287 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
+2024-07-12 23:20:58,287 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/forge@43.4.2/net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46)
+2024-07-12 23:20:58,287 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:98)
+2024-07-12 23:20:58,288 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,288 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Netty Server IO #0
+2024-07-12 23:20:58,288 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 35 | Suspended: false | Native: true | State: RUNNABLE
+2024-07-12 23:20:58,289 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2024-07-12 23:20:58,289 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@21.0.3/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+2024-07-12 23:20:58,289 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@21.0.3/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+2024-07-12 23:20:58,289 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,289 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.EPoll.wait(Native Method)
+2024-07-12 23:20:58,290 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:121)
+2024-07-12 23:20:58,290 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+2024-07-12 23:20:58,290 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:147)
+2024-07-12 23:20:58,291 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+2024-07-12 23:20:58,291 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+2024-07-12 23:20:58,291 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+2024-07-12 23:20:58,291 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+2024-07-12 23:20:58,291 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+2024-07-12 23:20:58,292 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,292 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,292 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,292 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Spigot Watchdog Thread
+2024-07-12 23:20:58,293 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 36 | Suspended: false | Native: false | State: RUNNABLE
+2024-07-12 23:20:58,293 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,293 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.management@21.0.3/sun.management.ThreadImpl.dumpThreads0(Native Method)
+2024-07-12 23:20:58,293 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.management@21.0.3/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+2024-07-12 23:20:58,294 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.management@21.0.3/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+2024-07-12 23:20:58,294 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/forge@43.4.2/org.spigotmc.WatchdogThread.run(WatchdogThread.java:82)
+2024-07-12 23:20:58,294 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,294 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: FileSystemWatchService
+2024-07-12 23:20:58,294 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 37 | Suspended: false | Native: true | State: RUNNABLE
+2024-07-12 23:20:58,295 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,295 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.fs.LinuxWatchService.poll(Native Method)
+2024-07-12 23:20:58,295 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:307)
+2024-07-12 23:20:58,295 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,296 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,296 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,303 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Worker-Main-6
+2024-07-12 23:20:58,303 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 42 | Suspended: false | Native: false | State: TIMED_WAITING
+2024-07-12 23:20:58,305 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,305 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+2024-07-12 23:20:58,307 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+2024-07-12 23:20:58,307 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+2024-07-12 23:20:58,307 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+2024-07-12 23:20:58,308 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024-07-12 23:20:58,308 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,308 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-10
+2024-07-12 23:20:58,309 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 46 | Suspended: false | Native: false | State: RUNNABLE
+2024-07-12 23:20:58,309 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2024-07-12 23:20:58,310 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile.m_63654_(RegionFile.java:401)
+2024-07-12 23:20:58,310 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,317 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method)
+2024-07-12 23:20:58,317 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71)
+2024-07-12 23:20:58,318 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+2024-07-12 23:20:58,319 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.IOUtil.write(IOUtil.java:81)
+2024-07-12 23:20:58,319 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+2024-07-12 23:20:58,320 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+2024-07-12 23:20:58,320 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1012)
+2024-07-12 23:20:58,323 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile.m_63675_(RegionFile.java:429)
+2024-07-12 23:20:58,324 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile.m_63654_(RegionFile.java:401)
+2024-07-12 23:20:58,324 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:369)
+2024-07-12 23:20:58,325 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:249)
+2024-07-12 23:20:58,325 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+2024-07-12 23:20:58,326 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+2024-07-12 23:20:58,326 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFileStorage.m_63708_(RegionFileStorage.java:80)
+2024-07-12 23:20:58,326 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.IOWorker.m_63535_(IOWorker.java:260)
+2024-07-12 23:20:58,327 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.IOWorker.m_63553_(IOWorker.java:250)
+2024-07-12 23:20:58,327 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.IOWorker$$Lambda/0x000070ef28d12ba8.run(Unknown Source)
+2024-07-12 23:20:58,327 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.StrictQueue$IntRunnable.run(StrictQueue.java:60)
+2024-07-12 23:20:58,328 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91)
+2024-07-12 23:20:58,328 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146)
+2024-07-12 23:20:58,328 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102)
+2024-07-12 23:20:58,329 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+2024-07-12 23:20:58,329 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+2024-07-12 23:20:58,329 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,330 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,330 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,331 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-11
+2024-07-12 23:20:58,331 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 47 | Suspended: false | Native: false | State: TIMED_WAITING
+2024-07-12 23:20:58,331 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,331 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+2024-07-12 23:20:58,332 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+2024-07-12 23:20:58,332 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+2024-07-12 23:20:58,332 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+2024-07-12 23:20:58,333 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:233)
+2024-07-12 23:20:58,338 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:336)
+2024-07-12 23:20:58,339 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+2024-07-12 23:20:58,339 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+2024-07-12 23:20:58,339 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+2024-07-12 23:20:58,340 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,340 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,341 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,341 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-12
+2024-07-12 23:20:58,342 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 48 | Suspended: false | Native: false | State: TIMED_WAITING
+2024-07-12 23:20:58,343 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,343 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+2024-07-12 23:20:58,343 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+2024-07-12 23:20:58,344 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+2024-07-12 23:20:58,344 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+2024-07-12 23:20:58,345 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:233)
+2024-07-12 23:20:58,345 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:336)
+2024-07-12 23:20:58,345 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+2024-07-12 23:20:58,346 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+2024-07-12 23:20:58,346 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+2024-07-12 23:20:58,347 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,347 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,347 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,348 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-13
+2024-07-12 23:20:58,349 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 49 | Suspended: false | Native: false | State: RUNNABLE
+2024-07-12 23:20:58,349 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2024-07-12 23:20:58,357 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile.m_63654_(RegionFile.java:396)
+2024-07-12 23:20:58,357 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,358 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method)
+2024-07-12 23:20:58,358 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71)
+2024-07-12 23:20:58,358 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+2024-07-12 23:20:58,359 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+2024-07-12 23:20:58,359 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+2024-07-12 23:20:58,359 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+2024-07-12 23:20:58,360 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1012)
+2024-07-12 23:20:58,360 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile.m_63654_(RegionFile.java:396)
+2024-07-12 23:20:58,360 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:369)
+2024-07-12 23:20:58,361 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:249)
+2024-07-12 23:20:58,361 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+2024-07-12 23:20:58,363 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+2024-07-12 23:20:58,363 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFileStorage.m_63708_(RegionFileStorage.java:80)
+2024-07-12 23:20:58,364 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.IOWorker.m_63535_(IOWorker.java:260)
+2024-07-12 23:20:58,365 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.IOWorker.m_63553_(IOWorker.java:250)
+2024-07-12 23:20:58,366 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.IOWorker$$Lambda/0x000070ef28d12ba8.run(Unknown Source)
+2024-07-12 23:20:58,366 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.StrictQueue$IntRunnable.run(StrictQueue.java:60)
+2024-07-12 23:20:58,366 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91)
+2024-07-12 23:20:58,367 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146)
+2024-07-12 23:20:58,367 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102)
+2024-07-12 23:20:58,367 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+2024-07-12 23:20:58,368 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+2024-07-12 23:20:58,368 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,369 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,369 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,370 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-14
+2024-07-12 23:20:58,370 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 50 | Suspended: false | Native: false | State: RUNNABLE
+2024-07-12 23:20:58,370 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2024-07-12 23:20:58,371 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile.m_63654_(RegionFile.java:401)
+2024-07-12 23:20:58,371 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,371 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method)
+2024-07-12 23:20:58,372 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImpl.java:71)
+2024-07-12 23:20:58,372 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+2024-07-12 23:20:58,373 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.IOUtil.write(IOUtil.java:81)
+2024-07-12 23:20:58,373 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+2024-07-12 23:20:58,373 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+2024-07-12 23:20:58,374 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1012)
+2024-07-12 23:20:58,374 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile.m_63675_(RegionFile.java:429)
+2024-07-12 23:20:58,375 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile.m_63654_(RegionFile.java:401)
+2024-07-12 23:20:58,375 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:369)
+2024-07-12 23:20:58,376 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:249)
+2024-07-12 23:20:58,376 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+2024-07-12 23:20:58,376 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.io.FilterOutputStream.close(FilterOutputStream.java:190)
+2024-07-12 23:20:58,377 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.RegionFileStorage.m_63708_(RegionFileStorage.java:80)
+2024-07-12 23:20:58,377 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.IOWorker.m_63535_(IOWorker.java:260)
+2024-07-12 23:20:58,377 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.IOWorker.m_63553_(IOWorker.java:250)
+2024-07-12 23:20:58,378 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.IOWorker$$Lambda/0x000070ef28d12ba8.run(Unknown Source)
+2024-07-12 23:20:58,378 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.StrictQueue$IntRunnable.run(StrictQueue.java:60)
+2024-07-12 23:20:58,379 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91)
+2024-07-12 23:20:58,379 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146)
+2024-07-12 23:20:58,380 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102)
+2024-07-12 23:20:58,380 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+2024-07-12 23:20:58,381 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+2024-07-12 23:20:58,381 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,381 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,382 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:20:58,382 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Metrics-1
+2024-07-12 23:20:58,382 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 51 | Suspended: false | Native: false | State: TIMED_WAITING
+2024-07-12 23:20:58,383 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2024-07-12 23:20:58,383 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+2024-07-12 23:20:58,383 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+2024-07-12 23:20:58,384 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+2024-07-12 23:20:58,384 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+2024-07-12 23:20:58,386 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+2024-07-12 23:20:58,392 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2024-07-12 23:20:58,392 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+2024-07-12 23:20:58,393 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+2024-07-12 23:20:58,393 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.runWith(Thread.java:1596)
+2024-07-12 23:20:58,393 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@21.0.3/java.lang.Thread.run(Thread.java:1583)
+2024-07-12 23:20:58,394 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2024-07-12 23:21:05,253 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(622)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+2024-07-12 23:21:06,142 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(622)[m: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+2024-07-12 23:21:06,561 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(645)[m: ThreadedAnvilChunkStorage (world): All chunks are saved
+2024-07-12 23:21:06,561 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(645)[m: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+2024-07-12 23:21:06,562 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(645)[m: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+2024-07-12 23:21:06,562 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129885_(648)[m: ThreadedAnvilChunkStorage: All dimensions are saved
